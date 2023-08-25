@@ -872,7 +872,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: fadb50368374b65428141ef63878e214, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2391,7 +2391,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.2399902, y: -0.6499939}
+  m_AnchoredPosition: {x: -3.2399902, y: -0.6500244}
   m_SizeDelta: {x: 85.03, y: 74.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &875402089
@@ -2989,8 +2989,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -416.7, y: 254.36}
-  m_SizeDelta: {x: -954.0199, y: -530.2349}
+  m_AnchoredPosition: {x: -764.99994, y: 484.29}
+  m_SizeDelta: {x: -1642.32, y: -990.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962583659
 MonoBehaviour:
@@ -3219,7 +3219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146777378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.162572, y: 0.7315563, z: 0}
+  m_LocalPosition: {x: -0.93, y: -0.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3264,7 +3264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1157442230
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3283,7 +3283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000024914742, y: 0.000000059604645}
+  m_AnchoredPosition: {x: 0.000024676323, y: 0.000000059604645}
   m_SizeDelta: {x: -0.000049829, y: 0.00000011921}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1157442231
@@ -3325,7 +3325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3785,7 +3785,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 132, y: -51}
+  m_AnchoredPosition: {x: 142.1, y: -44.95}
   m_SizeDelta: {x: 190.72, y: 76.055}
   m_Pivot: {x: 0.50000006, y: 0.5000002}
 --- !u!114 &1402857132
@@ -3828,7 +3828,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 101
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3882,7 +3882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.03, y: 1.87}
+  m_AnchoredPosition: {x: 0, y: 2}
   m_SizeDelta: {x: 3.3264, y: 1.3915}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1405714041
@@ -3946,7 +3946,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!95 &1405714044
 Animator:
@@ -4022,8 +4022,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 406, y: 255.14}
-  m_SizeDelta: {x: -954.0199, y: -530.2349}
+  m_AnchoredPosition: {x: 751.65, y: 484.68}
+  m_SizeDelta: {x: -1645.32, y: -989.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1410486012
 MonoBehaviour:
@@ -4172,7 +4172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 100
-  startLives: 10
+  startLives: 1
 --- !u!114 &1478765572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5350,8 +5350,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -160, y: -34.383}
-  m_SizeDelta: {x: 233.14, y: 118.77}
+  m_AnchoredPosition: {x: -159.23, y: -46.78}
+  m_SizeDelta: {x: 234.69, y: 143.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1951392390
 MonoBehaviour:
