@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 8448070875028321880}
   - component: {fileID: 2045128585728974016}
   - component: {fileID: 2514456441659274161}
+  - component: {fileID: -2560521506700820166}
   m_Layer: 0
   m_Name: DrummerTower
   m_TagString: Attack
@@ -132,6 +133,26 @@ MonoBehaviour:
   range: 6.4
   bulletPrefab: {fileID: 2515532761886195957, guid: 024a906fda9be3545810fd3bd2967123, type: 3}
   fireRate: 0.3
-  useLaser: 0
   enemyTag: Enemy
   firePoint: {fileID: 3961707381219826369}
+--- !u!95 &-2560521506700820166
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2842500559504503921}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 04f319822095d254bba91b819ef5efba, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

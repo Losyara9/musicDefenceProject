@@ -6,6 +6,8 @@ public class Tower : MonoBehaviour
 {
     private Transform target;
 
+    Animator animator;
+
     [Header("General")]  
     public float range = 15f;
 
@@ -23,6 +25,7 @@ public class Tower : MonoBehaviour
     private bool isSupported = false;
     private bool stopSupport = false;
 
+
     public void Support()
     {
         isSupported = true;
@@ -36,6 +39,7 @@ public class Tower : MonoBehaviour
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f); // вызов метода UpdateTarget каждые пол секунды
+        animator = GetComponent<Animator>();
     }
 
     void UpdateTarget()
@@ -68,13 +72,18 @@ public class Tower : MonoBehaviour
     {
         if (target == null)
         {
+            animator.SetBool("isAttack", false);
             return;
+        }
+        else
+        {
+            animator.SetBool("isAttack", true);
         }
 
         if (isSupported && !stopSupport)
         {
             range += 0.5f; // увеличение радиуса стрельбы
-            fireRate *= 1.2f; // ускорение стрельбы на 20%
+            fireRate *= 1.2f; // ускорение стрельбы на 20%з
             isSupported = false;
         }
         if (stopSupport && !isSupported)

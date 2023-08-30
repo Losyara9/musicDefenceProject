@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4871156991623333724}
   - component: {fileID: 8016301006821521243}
   - component: {fileID: 60310869044746471}
+  - component: {fileID: 2697926567818228266}
   m_Layer: 0
   m_Name: KeyboardTower
   m_TagString: Attack
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5655625338220288004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.1985765, y: 1.6453074, z: 0}
+  m_LocalPosition: {x: -6.1985765, y: 1.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -103,6 +104,27 @@ MonoBehaviour:
   fireRate: 5
   enemyTag: Enemy
   firePoint: {fileID: 4492904796108300669}
+--- !u!95 &2697926567818228266
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5655625338220288004}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: de15813bedc8b264ba379d6bef76d7be, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6921218645332895295
 GameObject:
   m_ObjectHideFlags: 0

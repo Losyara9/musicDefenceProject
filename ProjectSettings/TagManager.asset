@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Support
   - Attack
+  - Reverse
+  - Unreverse
   layers:
   - Default
   - TransparentFX

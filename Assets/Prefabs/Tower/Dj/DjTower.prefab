@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 770809666953178987}
   - component: {fileID: 5831000252181662766}
   - component: {fileID: 7052219694416998959}
+  - component: {fileID: -3194607587990008166}
   m_Layer: 0
   m_Name: DjTower
   m_TagString: Support
@@ -120,6 +121,27 @@ MonoBehaviour:
   towerTag: Attack
   range: 8
   gainPercent: 0.05
+--- !u!95 &-3194607587990008166
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872239219717806070}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 50fe30c0e1cbe6347bb9112e8bdc2748, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6534308428221128853
 GameObject:
   m_ObjectHideFlags: 0

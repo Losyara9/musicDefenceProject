@@ -23,6 +23,8 @@ public class Enemy : MonoBehaviour
 
     private bool isDead = false;
 
+    public GameManager gameManager;
+
     void Start()
     {
         target = Waypoints.points[0];
@@ -90,10 +92,10 @@ public class Enemy : MonoBehaviour
 
         if (Vector2.Distance(transform.position, target.position) <= 0.02f)
         {
-            GetNextWaypoint();
             RotateIntoMoveDirection();
+            GetNextWaypoint();
         }
-
+        
         if (health / startHealth > 0.5f)
         {
             healthBar.color = Color.green;
@@ -135,19 +137,45 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void RotateIntoMoveDirection()
+    private void RotateIntoMoveDirection1()
     {
-        //1
-        Vector3 newStartPosition = Waypoints.points[waypointIndex].transform.position;
-        Vector3 newEndPosition = Waypoints.points[waypointIndex + 1].transform.position;
-        Vector3 newDirection = (newEndPosition - newStartPosition);
-        //2
-        float x = newDirection.x;
-        float y = newDirection.y;
-        float rotationAngle = Mathf.Atan2(y, x) * 180 / Mathf.PI;
-        //3
-        //GameObject sprite = gameObject.transform.Find("walk8").gameObject;
-        //sprite.transform.rotation = Quaternion.AngleAxis(rotationAngle, Vector3.forward);
+        Vector3 newStartPosition;
+        Vector3 newEndPosition;
+        
+        newStartPosition = Waypoints.points[waypointIndex].transform.position;
+
+        if (Waypoints.points.Length <= waypointIndex + 1)
+        {
+            newEndPosition = Waypoints.points[^1].transform.position;
+        }
+        else
+        {
+            newEndPosition = Waypoints.points[waypointIndex + 1].transform.position;
+        }
+
+        Debug.Log("Start: " + newStartPosition.x + " end: " + newEndPosition.x);
+
+        if (newStartPosition.x < newEndPosition.x)
+        {
+            transform.Rotate(0, 0, 0);
+        }
+        if (newStartPosition.x > newEndPosition.x)
+        {
+            transform.Rotate(0, 180, 0);
+        }
+        
     }
 
+    private void RotateIntoMoveDirection()
+    {
+        if (Waypoints.points[waypointIndex].tag == "Reverse")
+        {
+            transform.Rotate(0, 180, 0);
+        }
+
+        if (Waypoints.points[waypointIndex].tag == "Unreverse")
+        {
+            transform.Rotate(0, -180, 0);
+        }
+    }
 }

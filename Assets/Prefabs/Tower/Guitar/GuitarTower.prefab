@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 2718022124803364111}
   - component: {fileID: 341368118994292183}
   - component: {fileID: 3164807055155438471}
+  - component: {fileID: -1207343594367126667}
   m_Layer: 0
   m_Name: GuitarTower
   m_TagString: Attack
@@ -132,6 +133,26 @@ MonoBehaviour:
   range: 4
   bulletPrefab: {fileID: 2221370558533375852, guid: b14697b0df91cdf4e98e884433a860fb, type: 3}
   fireRate: 1
-  useLaser: 0
   enemyTag: Enemy
   firePoint: {fileID: 5984082089802114897}
+--- !u!95 &-1207343594367126667
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749478433251849143}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b4e582c30d2865549a9a3b339e7dd585, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
