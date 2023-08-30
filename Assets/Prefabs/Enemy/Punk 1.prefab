@@ -139,7 +139,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.000000059604645, y: 0.0042}
+  m_AnchoredPosition: {x: 0.000000059604645, y: 0.99}
   m_SizeDelta: {x: 0.00000011921, y: 0.1956}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3300411502173608073
@@ -290,7 +290,7 @@ Transform:
   m_Children:
   - {fileID: 1032544558798830093}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4297149695647969432
 MonoBehaviour:
@@ -309,6 +309,7 @@ MonoBehaviour:
   enemyType: Punk
   reward: 35
   healthBar: {fileID: 696644920547436230}
+  gameManager: {fileID: 0}
 --- !u!135 &6000470828528559193
 SphereCollider:
   m_ObjectHideFlags: 0
